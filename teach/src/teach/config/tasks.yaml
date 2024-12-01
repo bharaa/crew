@@ -1,0 +1,13 @@
+research_task:
+  description: >
+    write arduino sketch for arduino uno based on operation {topic} 
+  expected_output: >
+    only sketch based on {topic}
+  agent: researcher
+
+reporting_task:
+  description: >
+    Review the context you got arduino sketch
+  expected_output: >
+    only sketch should be in output, dont show else other texts description than arduino sketch
+  agent: reporting_analyst
